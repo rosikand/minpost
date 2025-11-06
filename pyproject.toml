@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minpost"
+version = "0.1.0"
+description = "A minimal package for post-training language models"
+authors = [
+  { name = "Rohan Sikand", email = "rsikand29@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "torch>=2.0.0",
+  "transformers>=4.30.0",
+  "datasets>=2.12.0",
+  "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.3.0",
+  "black>=23.3.0",
+  "flake8>=6.0.0",
+]
+
+[tool.setuptools]
+packages = { find = {} }
+
+
