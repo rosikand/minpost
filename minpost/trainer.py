@@ -1,5 +1,8 @@
-"""Core training logic for post-training."""
-
+"""
+File: trainer.py
+------------------
+Core training logic and modules for post-training, including a trainer class. 
+"""
 
 class Trainer:
     """Handles model training and evaluation."""

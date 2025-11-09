@@ -1,5 +1,8 @@
-"""Data loading and processing utilities."""
-
+"""
+File: data.py
+------------------
+Provides data loading and preprocessing utilities.
+"""
 
 class DataLoader:
     """Handles data loading and preprocessing."""
